@@ -1,0 +1,43 @@
+$bgcolor: #004C4C;
+$fgcolor: #327D77;
+$border-third-color: #66b2b2;
+//NAV
+
+.nav__items{
+    width: 100%;
+    position: relative;
+    height: 80px;
+    background-color: $bgcolor;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.nav__item{
+    position: relative;
+    padding: 20px 35px;
+    margin: 0;
+    border-right: 1px solid $fgcolor;
+ }
+ .nav__item:hover{
+    filter: brightness(1.4);
+ }
+.nav__link{
+text-align: center;
+text-decoration: none;
+color: $fgcolor;
+font-size: 1.5em;
+}
+.home::before{
+   content: "";
+   position: absolute;
+   bottom: 3px;
+   right: 58px;
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   
+   background-color: $border-third-color;
+  
+}
