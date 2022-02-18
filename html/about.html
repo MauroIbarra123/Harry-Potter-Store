@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="..//css/components.css">
+    <link rel="stylesheet" href="..//css/global-styles.css">
+    <link rel="stylesheet" href="..//css/about.css">
+    <link rel="stylesheet" href="..//css/carrito.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+<nav class="nav__400">
+    <div class="container">
+        <div class="nav__400-wrapper">
+            <div class="nav__home a768" id="nav__item">
+                <a href="..//html/index.html"><h2>Home</h2></a>
+            </div>
+            <div class="nav__about a768" id="nav__item">
+                <a href="about.html"><h2>About Us</h2></a>
+            </div>
+            <div class="nav__categories a768" id="nav__item">
+                <a href="categories.html"><h2>Categories</h2></a>
+            </div>
+            <div class="nav__login" id="nav__item">
+               <a href="login.html"> <h2>Login</h2></a>
+            </div>
+            <div class="nav__carrito" id="nav__item">
+                <a href="#"><img class="nav__carrito-img" src="../rsc/img/carrito-de-compras1.png" alt="Carrito de Compras"></a>
+            </div>
+            <div class="nav__menu">
+                <img src="../rsc/img/menu.png" class="nav__icon" alt="Menu">
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <!-- Nav Section (Nav)-->
+    <div class="bg-overlay"></div>
+    <div class="nav__menu-izq">
+        <ul class="nav__list">
+            <div class="nav__close-icon">
+                <img src="../rsc/img/x.svg" alt="Close icon">
+            </div>
+            <div class="nav__header">
+                <a href="#login">
+                    <h2 class="nav__header-name">Mauro Ibarra</h2>
+                    <div class="cont-logo">
+                        <img src="https://www.pngarea.com/pngm/193/1769502_harry-potter-logo-png-hogwarts-crest-circular-doormat.png" alt="Logo">
+                    </div>
+                </a>
+                
+            </div>
+        
+            <li class="nav__item"><a href="index.html"><h2>Home</h2></a></li>
+            <li class="nav__item"><a href="about.html"><h2>About Us</h2></a></li>
+            <li class="nav__item categories"><a href="#"><h2>Categories</h2></a></li>
+            <ul class="nav__sublist on">
+                <li class="nav__subitem"><a href="categories.html"><h2>Toys</h2></a></li>
+                <li class="nav__subitem"><a href="categories.html"><h2>Clothes</h2></a></li>
+                <li class="nav__subitem"><a href="categories.html"><h2>Gifts</h2></a></li>
+                <li class="nav__subitem"><a href="categories.html"><h2>Collections</h2></a></li>
+            </ul>
+            <li class="nav__item contact on"><a href="contact.html"></a><h2>Contact</h2></a></li>
+        </ul>
+    </div>
+  
+    <section id="carrito">
+        <div id="nav-carrito"">
+            <div class="container">
+                <div class="nav-carrito__wrapper">
+                    <div class="nav-carrito__icon">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <h2 class="nav-carrito-title">Carrito de Compras</h2>
+                </div>
+            </div>
+        </div>
+        <div class="carrito">
+            <div class="container">
+                <div class="carrito__wrapper">
+                    <div class="productos__wrapper">
+                        <div class="productos-item">
+                            <div class="productos__item-img-wrapper">
+                                <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/806/999/products/campera-avengers-endgame-marvel-traje-cuantico-thanos-fotocaja-tienda-geek-cordoba1-ca3b582ecc31bf3fc915581920337116-320-0.jpg" alt="Campera Thanos">
+                            </div>
+                            <div class="productos__item-info">
+                                <div class="productos__item-col1">
+                                    <h2 class="productos__item-title">Campera | Thanos</h2>
+                                    <input type="number" class="productos__item-quantity"value="1">
+                                </div>
+                                <div class="productos__item-col2">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <p class="productos__item-price">$2.990</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="productos-item">
+                            <div class="productos__item-img-wrapper">
+                                <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/806/999/products/img-20190612-wa00041-6bccfea1d434f1b50d15603095572093-320-0.jpg" alt="Taza Ironman">
+                            </div>
+                            <div class="productos__item-info">
+                                <div class="productos__item-col1">
+                                    <h2 class="productos__item-title">Taza Magica  | I love you 3000</h2>
+                                    <input type="number" class="productos__item-quantity" value="1">
+                                </div>
+                                <div class="productos__item-col2">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <p class="productos__item-price">$2.990</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="productos__subtotal">
+                            <h2 class="productos__subt-title">Subtotal (sin envio):</h2>
+                            <p>$2.990</p>
+                        </div>
+                    </div>
+    
+                    <!-- Envios part -->
+                    <div class="entregas__wrapper">                
+                        <div class="envios__wrapper">
+                            <div class="envios__header">
+                                <i class="fa-solid fa-truck"></i>
+                                <p>Envio a domicilio</p>
+                            </div>
+                            <div class="envios__wrapper-items">
+                                <div class="envios__item">
+                                    <div class="envios__selection">
+                                         <span></span>
+                                    </div>
+                                    <div class="envios__info">
+                                        <h2 class="envios__title">Envio a sucursal por envio argentino</h2>
+                                        <div class="envios__text">
+                                            <i class="fa-solid fa-clock-rotate-left"></i>
+                                            <p>Llega entre el martes 14/02 y el viernes 18/02</p>
+                                        </div>
+                                    </div>
+                                    <div class="envios__price">
+                                        <p>$590</p>
+                                    </div>
+                                </div>
+                                <div class="envios__item">
+                                    <div class="envios__selection">
+                                         <span>
+                                            <i class="fa-solid fa-circle-check"></i>
+                                         </span>
+                                    </div>
+                                    <div class="envios__info">
+                                        <h2 class="envios__title">Correo Argentino a domocilio</h2>
+                                        <div class="envios__text">
+                                            <i class="fa-solid fa-clock-rotate-left"></i>
+                                            <p>Llega entre el jueves 16/02 y el lunes 23/02</p>
+                                        </div>
+                                    </div>
+                                    <div class="envios__price">
+                                        <p>$590</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="envios__msg">
+                                <p>El tiempo de entrega <span>no considera feriados</span></p>
+                            </div>
+    
+                        </div>
+                        <div class="sucursal__wrapper">
+                            <div class="envios__header">
+                                <i class="fa-solid fa-house-user"></i>
+                                <p>Nuestro local</p>
+                            </div>
+                            <div class="envios__wrapper-items">
+                                <div class="envios__item">
+                                    <div class="envios__selection">
+                                         <span></span>
+                                    </div>
+                                    <div class="envios__info">
+                                        <h2 class="envios__title">Envio a sucursal por envio argentino</h2>
+                                        <div class="envios__text">
+                                            <i></i>
+                                            <p>Llega entre el martes 14/02 y el viernes 18/02</p>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="total__wrapper">
+                            <div class="total__row1">
+                                <p>Total:</p>
+                                <p>$5.690,00</p>
+                            </div>
+                            <div class="total__row2">
+                                <p>O hasta 6 cuotas x $946,99</p>
+                            </div>
+                            <button class="primary-button">
+                                <a href="">
+                                    <p>Iniciar Compra</p>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Main Section -->
+    <main>
+        <section class="about__section">
+            <div class="container">
+                <div class="about__wrapper">
+                    <div class="about__left">
+                        <h2 class="about__title">Our Goals</h2>
+                        <p class="about__text">Nuestra meta es poder ofrecerle al cliente el mismo fanatismo 
+                            y calidad que nosotros tenemos a la hora de brindarle nuestros productos. 
+                            Donde realmente sientan y puedan vivir la experiencia completa.</p>
+                    </div>
+                    <div class="about__right">
+                        <img src="https://images.pexels.com/photos/3127880/pexels-photo-3127880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="About us Photo">
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="team__section">
+            <div class="container">
+                <h2 class="team__title">Our Team</h2>
+                <div class="team__wrapper">
+                    <div class="team__card">
+                        <div class="team__photo">
+                            <img src="https://media.istockphoto.com/vectors/avatar-fashion-boss-men-clothing-icon-vector-id1197083224?k=20&m=1197083224&s=612x612&w=0&h=-TkXWNqHqCe-pCZz8UQkjdusiWRTOHpYZXUF7-fDwHE=" alt="Team Photo">
+                        </div>
+                        <div class="team__info">
+                            <h2 class="team__name">Mauro Ibarra</h2>
+                            <h3 class="team__rol">Manager</h3>
+                           <p class="info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                               Quod itaque ratione quibusdam ipsa? Odio magnam quos autem 
+                               inventore soluta dolorum, id laborum tempore iusto sed,
+                                eum, perferendis excepturi. Dolore, tenetur?
+                           </p>
+                        </div>
+
+                    </div>
+                    <div class="team__card">
+                        <div class="team__photo">
+                            <img src="https://media.istockphoto.com/vectors/avatar-fashion-boss-men-clothing-icon-vector-id1197083224?k=20&m=1197083224&s=612x612&w=0&h=-TkXWNqHqCe-pCZz8UQkjdusiWRTOHpYZXUF7-fDwHE=" alt="Team Photo">
+                        </div>
+                        <div class="team__info">
+                            <h2 class="team__name">Mauro Ibarra</h2>
+                            <h3 class="team__rol">Manager</h3>
+                           <p class="info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                               Quod itaque ratione quibusdam ipsa? Odio magnam quos autem 
+                               inventore soluta dolorum, id laborum tempore iusto sed,
+                                eum, perferendis excepturi. Dolore, tenetur?
+                           </p>
+                        </div>
+
+                    </div>
+                    <div class="team__card">
+                        <div class="team__photo">
+                            <img src="https://media.istockphoto.com/vectors/avatar-fashion-boss-men-clothing-icon-vector-id1197083224?k=20&m=1197083224&s=612x612&w=0&h=-TkXWNqHqCe-pCZz8UQkjdusiWRTOHpYZXUF7-fDwHE=" alt="Team Photo">
+                        </div>
+                        <div class="team__info">
+                            <h2 class="team__name">Mauro Ibarra</h2>
+                            <h3 class="team__rol">Manager</h3>
+                           <p class="info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                               Quod itaque ratione quibusdam ipsa? Odio magnam quos autem 
+                               inventore soluta dolorum, id laborum tempore iusto sed,
+                                eum, perferendis excepturi. Dolore, tenetur?
+                           </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services-section">
+            <div class="container">
+                <div class="services__wrapper">
+                    <div class="services__left">
+                        <h2 class="services__title">Why Choose Us</h2>
+                        <p class="services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae odio, dolorem dolorum numquam veniam fuga error voluptatem illum? Excepturi ipsum officiis doloribus laborum odio doloremque eum qui magnam dolore quaerat.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius autem saepe soluta rem ipsum porro maxime, nihil doloremque neque repellendus qui unde dolorem fugit, itaque sapiente! Ipsam optio beatae itaque.
+                        </p>
+                    </div>
+                    <div class="services__right">
+                        <div class="services__item">
+                            <div class="services__photo">
+                                <img src="..//rsc/img/entrega-rapida.png" alt="Entrega Rapida">
+                            </div>
+                            <p>Entrega inmediata</p>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__photo">
+                                 <img src="..//rsc/img/quality.png" alt="Calidad">
+                            </div>
+                            <p>Calidad Asegurada</p>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__photo">
+                                <img src="..//rsc/img/secure-shield.png" alt="Seguridad">
+                            </div>
+                            <p>Proteccion brindada</p>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+            
+        </section>
+    </main>
+
+     <!-- Start of Footer Section -->
+     <footer>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__row1">
+                    <h2 class="footer__title">Contáctanos</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <img src="..//rsc/img/icons8-whatsapp-48.png" alt="whatsapp icon">
+                            <p>Whatsapp</p>
+                        </li>
+                        <li class="footer__item">
+                            <img src="..//rsc/img/icons8-instagram-photo-and-video-sharing-social-networking-service-owned-by-facebook-48.png" alt="instagram icon">
+                            <p>Instagram</p>
+                        </li>
+                        <li class="footer__item">
+                            <img src="..//rsc/img/icons8-descargar-mail-128.png" alt="mail icon">
+                            <p>laestacion@gmail.com</p>
+                        </li>
+                        <li class="footer__item">
+                            <img src="..//rsc/img/icons8-marcador-100.png" alt="location icon">
+                            <p>Caseros 272</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__row2">
+                    <h2 class="footer__title">Categories</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <p>Juguetes</p>
+                        </li>
+                        <li class="footer__item">
+                            <p>Accesorios</p>
+                        </li>
+                        <li class="footer__item">
+                            <p>Peluches</p>
+                        </li>
+                        <li class="footer__item">
+                            <p>Funko Pop</p>
+                        </li>
+                        <li class="footer__item">
+                            <p>Mates</p>
+                        </li>
+                        <li class="footer__item">
+                            <p>Billeteras</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__row3">
+                    <h2 class="footer__title">About Us</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <p>Quienes Somos</p>
+                        </li>
+                        <li class="footer__item">
+                            <p>Politica de privacidad</p>
+                        </li>
+                        <li class="footer__item">
+                            <p>Nuestros servicios</p>
+                        </li>
+                        <li class="footer__item">
+                            <p>Cookies</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__row4">
+                    <h2 class="footer__title">Medios de Pago</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <img src="..//rsc/img/visa.png" alt="Visa card">
+                        </li>
+                        <li class="footer__item">
+                            <img src="..//rsc/img/mastercard.png" alt="Mastercard's card">
+                        </li>
+                        <li class="footer__item">
+                            <img src="..//rsc/img/mercado pago.png" alt="Mercado Pago card">
+                        </li>
+                        <li class="footer__item">
+                           <img src="..//rsc/img/tarjeta naranja.png" alt="Tarjeta Naranja">
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer Section -->
+<script src="../js/main.js"></script>
+<script src="../js/scroll.js"></script>
+<script src="../js/carrito-others.js"></script>
+</body>
+</html>
