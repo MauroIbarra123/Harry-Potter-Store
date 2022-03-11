@@ -293,7 +293,7 @@ header{
     visibility: hidden;
 }
 
-@media only screen and (min-width: 768px){
+@media  screen and (min-width: 768px){
     .nav__close-icon, .header__menu-img, .nav__header, .bg-overlay{
         display: none;
     }
@@ -417,7 +417,7 @@ header{
         background-image: url("..//rsc/img/remera.webp");
     }
 
-    @media only screen and (min-width:768px){
+    @media  screen and (min-width:768px){
         .categorias__wrapper{
             grid-template-columns: repeat(auto-fit, 300px);
             gap: 5rem;
@@ -483,7 +483,7 @@ header{
 }
 
 
-@media only screen and (min-width: 768px){
+@media  screen and (min-width: 768px){
     .main__item{
         width: 220px;
     }
@@ -585,7 +585,7 @@ footer{
     filter: invert(0);
 }
 
-@media only screen and (min-width: 768px){
+@media  screen and (min-width: 768px){
     .footer__wrapper{
         grid-template-columns: 1fr 1fr 1fr;
     }
